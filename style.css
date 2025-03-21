@@ -214,7 +214,8 @@ nav .menu_link li a:hover {
 }
 
 .team_container {
-  display: flex;
+  display: block;
+  text-align: center;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -229,6 +230,7 @@ nav .menu_link li a:hover {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+  margin: 0 auto 20px;
 }
 
 .team_member:hover {
